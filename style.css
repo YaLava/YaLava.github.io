@@ -14,7 +14,7 @@ body{
 header{
   display: flex;
   justify-content: center;
-  background: rgb(0, 222, 252);
+  background: rgb(180, 199, 217);
 }
 .Logo{
   font-family: 'Bauhaus 93', sans-serif;   
@@ -48,7 +48,7 @@ a:hover{
   margin-right: auto;
   margin-left: auto;
   margin-top: 100px;
-  background: rgb(194, 192, 192);
+  background: rgb(180, 199, 217);
   width: 700px;
   height: 700px;
   padding: 30px;
