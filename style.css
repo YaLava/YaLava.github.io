@@ -1,0 +1,70 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+}
+body{
+  height: 100vh;
+  background: rgb(255, 255, 255);
+  background-size: cover;
+  background-position: center;
+}
+header{
+  display: flex;
+  justify-content: center;
+  background: rgb(0, 222, 252);
+}
+.Logo{
+  font-family: 'Bauhaus 93', sans-serif;   
+  color: rgb(255, 255, 255);                                            
+  margin-right: 25px;
+  display: inline-block;
+  vertical-align: middle;
+}
+h1{
+  font-size: 50px;
+}
+i{
+  font-family: fantasy;
+  color: rgb(255, 255, 255);
+  justify-content: right;
+  margin-right: 50px;
+  vertical-align: middle;
+  font-size: 30px;
+  transition: .5;
+}
+i:hover{
+  transform: scale(1.2);
+}
+a{
+  color: white;
+}
+a:hover{
+  color: gray;
+}
+.item {
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 100px;
+  background: rgb(194, 192, 192);
+  width: 700px;
+  height: 700px;
+  padding: 30px;
+  font-family: sans-serif;
+  line-height: 1.7;
+}
+div {
+	outline: 1px solid rgb(0, 0, 0);          /* обводка 2px сплошная оранжевая */
+}
+.col-1-2 {
+  width: 50%;
+}
+.shadow1 {
+  border-radius: .25rem;
+  box-shadow:
+    0 16px 24px 2px rgba(0, 0, 0, 0.144), 
+    0 6px 30px 5px rgba(0, 0, 0, 0.144), 
+    0 8px 10px -5px rgba(0, 0, 0, 0.144);
+}
