@@ -33,10 +33,10 @@ i{
   margin-right: 40px;
   vertical-align: middle;
   font-size: 40px;
-  transition: .5;
+  transition: .2;
 }
 i:hover{
-  transform: scale(1.2);
+  transform: scale(0.9);
 }
 a{
   color: white;
