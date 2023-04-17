@@ -46,6 +46,8 @@ a:hover{
   color: gray;
 }
 .item {
+  color: white;
+  font-size: 30px;
   margin-right: auto;
   margin-left: auto;
   margin-top: 100px;
@@ -55,6 +57,7 @@ a:hover{
   padding: 30px;
   font-family: sans-serif;
   line-height: 1.7;
+  outline: 1px solid rgb(0, 0, 0);
 }
 
 .col-1-2 {
@@ -87,18 +90,17 @@ a:hover{
 .list_menu li{
   margin-bottom: 100px 0;
 }
-.menu{
+i .menu{
   padding: 25vh 50px;
   position: fixed;
   background: rgb(180, 199, 217);
-  height: 100vh;
+  height: 190vh;
   backdrop-filter: blur(16px);
   border-left: 7px solid rgb(0, 0, 0);
-  right: -350px;
+  right: -580px;
   transition: all 0.2s ease;
 }
-.menu:hover{
-  right: 0;
+i .menu:hover{
   transition: all 0.2s ease;
 }
 .content{
